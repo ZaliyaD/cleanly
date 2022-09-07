@@ -1,0 +1,30 @@
+.buffer-both {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-1-3 {
+  float: left;
+  width: 33.33%;
+}
+
+.container:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+@media (max-width: 640px) {
+  .column-1-3 {
+    float: none;
+    width: auto;
+  }
+}
