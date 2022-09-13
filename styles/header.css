@@ -23,7 +23,7 @@
 
 .header-nav-item {
   list-style: none;
-  padding: 0 20px;
+  padding: 0px 20px;
   margin: 0;
   display: inline-block;
 }
@@ -34,8 +34,9 @@
   font-weight: bold;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   .header {
+    text-align: center;
     position: inherit;
     width: auto;
     background: #fff;
@@ -48,9 +49,6 @@
     float: none;
   }
 
-}
-
-@media (max-width: 360px) {
   .header-nav-item {
     display: block;
   }
